@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CoreKit"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Basic need for iOS"
 
   spec.description  = "Basic Framework for every  need for iOS coding making simple"
