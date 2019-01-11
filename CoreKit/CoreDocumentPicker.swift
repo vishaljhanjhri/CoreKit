@@ -6,7 +6,7 @@
 //  Copyright © 2019 Vishal. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import MobileCoreServices
 
 public protocol CoreDocumentPickerDelegate: class {

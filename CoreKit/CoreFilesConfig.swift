@@ -11,7 +11,7 @@ import UIKit
 public struct CoreFilesConfig {
     
     public var enabledFileTypes: [CoreMediaTypes] = [CoreMediaTypes.image, .audio, .video, .file]
-    public var maxSizeInBytes: UInt = 150000000000
+    public var maxSizeInBytes: UInt = 209715200
     
     public var rotateImageIfRequired: Bool = false
     public var enableResizingImage: Bool = false

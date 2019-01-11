@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CoreKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Basic need for iOS"
 
   spec.description  = "Basic need for iOS"
@@ -11,6 +11,8 @@ Pod::Spec.new do |spec|
   spec.author       = { "vishal" => "jhanjhri.vishal@gmail.com" }
   spec.source       = { :git => "https://github.com/vishaljhanjhri/CoreKit", :tag => "#{spec.version}" }
 
+  spec.ios.deployment_target = '8.0'
+  spec.swift_version = '4.2'
   spec.source_files  = "Classes", "CoreKit/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.requires_arc = true

@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C904320421E871A300B99942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904320321E871A300B99942 /* AppDelegate.swift */; };
-		C904320621E871A300B99942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904320521E871A300B99942 /* ViewController.swift */; };
 		C904320921E871A300B99942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C904320721E871A300B99942 /* Main.storyboard */; };
 		C904320B21E871A500B99942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C904320A21E871A500B99942 /* Assets.xcassets */; };
 		C904320E21E871A500B99942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C904320C21E871A500B99942 /* LaunchScreen.storyboard */; };
+		C904322121E88F3B00B99942 /* CoreEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321621E88F3700B99942 /* CoreEnum.swift */; };
+		C904322221E88F3B00B99942 /* CoreFilesConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321721E88F3800B99942 /* CoreFilesConfig.swift */; };
+		C904322321E88F3B00B99942 /* CoreKit+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321921E88F3800B99942 /* CoreKit+UIImage.swift */; };
+		C904322421E88F3B00B99942 /* CoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321A21E88F3900B99942 /* CoreKit.swift */; };
+		C904322521E88F3B00B99942 /* CoreMediaSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321B21E88F3900B99942 /* CoreMediaSelector.swift */; };
+		C904322621E88F3B00B99942 /* CoreDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321C21E88F3A00B99942 /* CoreDocumentPicker.swift */; };
+		C904322721E88F3B00B99942 /* LoggerEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321E21E88F3B00B99942 /* LoggerEnum.swift */; };
+		C904322821E88F3B00B99942 /* CoreLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321F21E88F3B00B99942 /* CoreLogger.swift */; };
+		C904322921E88F3B00B99942 /* LoggerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904322021E88F3B00B99942 /* LoggerConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C904320021E871A300B99942 /* CoreKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C904320321E871A300B99942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C904320521E871A300B99942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C904320821E871A300B99942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C904320A21E871A500B99942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C904320D21E871A500B99942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C904320F21E871A500B99942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C904321521E88F3600B99942 /* CoreKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		C904321621E88F3700B99942 /* CoreEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreEnum.swift; sourceTree = "<group>"; };
+		C904321721E88F3800B99942 /* CoreFilesConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreFilesConfig.swift; sourceTree = "<group>"; };
+		C904321921E88F3800B99942 /* CoreKit+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreKit+UIImage.swift"; sourceTree = "<group>"; };
+		C904321A21E88F3900B99942 /* CoreKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreKit.swift; sourceTree = "<group>"; };
+		C904321B21E88F3900B99942 /* CoreMediaSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMediaSelector.swift; sourceTree = "<group>"; };
+		C904321C21E88F3A00B99942 /* CoreDocumentPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDocumentPicker.swift; sourceTree = "<group>"; };
+		C904321E21E88F3B00B99942 /* LoggerEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerEnum.swift; sourceTree = "<group>"; };
+		C904321F21E88F3B00B99942 /* CoreLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLogger.swift; sourceTree = "<group>"; };
+		C904322021E88F3B00B99942 /* LoggerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +69,38 @@
 		C904320221E871A300B99942 /* CoreKit */ = {
 			isa = PBXGroup;
 			children = (
-				C904320321E871A300B99942 /* AppDelegate.swift */,
-				C904320521E871A300B99942 /* ViewController.swift */,
+				C904321C21E88F3A00B99942 /* CoreDocumentPicker.swift */,
+				C904321621E88F3700B99942 /* CoreEnum.swift */,
+				C904321721E88F3800B99942 /* CoreFilesConfig.swift */,
+				C904321A21E88F3900B99942 /* CoreKit.swift */,
+				C904321821E88F3800B99942 /* CoreKit+Extension */,
+				C904321D21E88F3B00B99942 /* CoreLogger */,
+				C904321B21E88F3900B99942 /* CoreMediaSelector.swift */,
 				C904320721E871A300B99942 /* Main.storyboard */,
 				C904320A21E871A500B99942 /* Assets.xcassets */,
 				C904320C21E871A500B99942 /* LaunchScreen.storyboard */,
 				C904320F21E871A500B99942 /* Info.plist */,
+				C904321521E88F3600B99942 /* CoreKit-Bridging-Header.h */,
 			);
 			path = CoreKit;
+			sourceTree = "<group>";
+		};
+		C904321821E88F3800B99942 /* CoreKit+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C904321921E88F3800B99942 /* CoreKit+UIImage.swift */,
+			);
+			path = "CoreKit+Extension";
+			sourceTree = "<group>";
+		};
+		C904321D21E88F3B00B99942 /* CoreLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C904321E21E88F3B00B99942 /* LoggerEnum.swift */,
+				C904321F21E88F3B00B99942 /* CoreLogger.swift */,
+				C904322021E88F3B00B99942 /* LoggerConfig.swift */,
+			);
+			path = CoreLogger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +135,7 @@
 				TargetAttributes = {
 					C90431FF21E871A300B99942 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -135,8 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C904320621E871A300B99942 /* ViewController.swift in Sources */,
-				C904320421E871A300B99942 /* AppDelegate.swift in Sources */,
+				C904322521E88F3B00B99942 /* CoreMediaSelector.swift in Sources */,
+				C904322721E88F3B00B99942 /* LoggerEnum.swift in Sources */,
+				C904322621E88F3B00B99942 /* CoreDocumentPicker.swift in Sources */,
+				C904322221E88F3B00B99942 /* CoreFilesConfig.swift in Sources */,
+				C904322821E88F3B00B99942 /* CoreLogger.swift in Sources */,
+				C904322921E88F3B00B99942 /* LoggerConfig.swift in Sources */,
+				C904322421E88F3B00B99942 /* CoreKit.swift in Sources */,
+				C904322321E88F3B00B99942 /* CoreKit+UIImage.swift in Sources */,
+				C904322121E88F3B00B99942 /* CoreEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +329,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoreKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Vishal.CoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreKit/CoreKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +350,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoreKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Vishal.CoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreKit/CoreKit-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
