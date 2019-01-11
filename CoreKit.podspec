@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/vishaljhanjhri"
   spec.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
-  spec.author       = { "vishal" => "jhanjhri.vishal@gmail.com" }
+  spec.author       = { "Vishal" => "jhanjhri.vishal@gmail.com" }
   spec.source       = { :git => "https://github.com/vishaljhanjhri/CoreKit.git", :tag => "#{spec.version}" }
 
   spec.ios.deployment_target = '8.0'

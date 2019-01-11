@@ -19,6 +19,9 @@
 		C904322721E88F3B00B99942 /* LoggerEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321E21E88F3B00B99942 /* LoggerEnum.swift */; };
 		C904322821E88F3B00B99942 /* CoreLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904321F21E88F3B00B99942 /* CoreLogger.swift */; };
 		C904322921E88F3B00B99942 /* LoggerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904322021E88F3B00B99942 /* LoggerConfig.swift */; };
+		C904323221E8948A00B99942 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C904322F21E8948A00B99942 /* LICENSE */; };
+		C904323321E8948A00B99942 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C904323021E8948A00B99942 /* README.md */; };
+		C904323421E8948A00B99942 /* CoreKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C904323121E8948A00B99942 /* CoreKit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		C904321E21E88F3B00B99942 /* LoggerEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerEnum.swift; sourceTree = "<group>"; };
 		C904321F21E88F3B00B99942 /* CoreLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLogger.swift; sourceTree = "<group>"; };
 		C904322021E88F3B00B99942 /* LoggerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerConfig.swift; sourceTree = "<group>"; };
+		C904322F21E8948A00B99942 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C904323021E8948A00B99942 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C904323121E8948A00B99942 /* CoreKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CoreKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 		C90431F721E871A300B99942 = {
 			isa = PBXGroup;
 			children = (
+				C904323121E8948A00B99942 /* CoreKit.podspec */,
+				C904322F21E8948A00B99942 /* LICENSE */,
+				C904323021E8948A00B99942 /* README.md */,
 				C904320221E871A300B99942 /* CoreKit */,
 				C904320121E871A300B99942 /* Products */,
 			);
@@ -162,8 +171,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C904323421E8948A00B99942 /* CoreKit.podspec in Resources */,
 				C904320E21E871A500B99942 /* LaunchScreen.storyboard in Resources */,
 				C904320B21E871A500B99942 /* Assets.xcassets in Resources */,
+				C904323321E8948A00B99942 /* README.md in Resources */,
+				C904323221E8948A00B99942 /* LICENSE in Resources */,
 				C904320921E871A300B99942 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
