@@ -6,7 +6,7 @@
 //  Copyright © 2019 Vishal. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import MobileCoreServices
 
 public protocol CoreDocumentPickerDelegate: class {
@@ -42,7 +42,7 @@ public class CoreDocumentPicker: NSObject, UIDocumentPickerDelegate {
         if CoreKit.shared.filesConfig.enabledFileTypes.contains(.video) {
             documentType.append(kUTTypeMovie as String)
         }
-        
+        documentType = ["public.data"]
         picker = UIDocumentPickerViewController.init(documentTypes: documentType, in: .import)
         super.init()
         
@@ -58,7 +58,6 @@ public class CoreDocumentPicker: NSObject, UIDocumentPickerDelegate {
     }
     
     // MARK: - UIDocumentPickerDelegate
-    
     public func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
         controller.dismiss(animated: true, completion: nil)
     }
@@ -88,11 +87,10 @@ public class CoreDocumentPicker: NSObject, UIDocumentPickerDelegate {
             }
             return
         }
-        
         picker.dismiss(animated: true, completion: nil)
         DispatchQueue.main.async {
             self.delegate?.didPickDocumentWith(url: urls.first!)
         }
-        
     }
+    
 }
